@@ -1,0 +1,88 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-size: 15px;
+  font-family: "OverPass", sans-serif;
+  background-color: hsl(216, 12%, 8%);
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.rating-state {
+  background-color: hsl(213, 19%, 18%);
+  height: 350px;
+  width: 340px;
+  padding: 22px;
+  border-radius: 15px;
+}
+img {
+  background-color: hsl(213, 15%, 23%);
+  border-radius: 50px;
+  padding: 12px;
+  overflow: visible;
+  width: 38px;
+  /* width */
+}
+h1 {
+  color: hsl(0, 0%, 100%);
+  font-weight: 400;
+  margin-top: 15px;
+  font-size: 1.6em;
+  /* font-size */
+}
+p {
+  margin-top: 15px;
+  color: hsl(217, 12%, 63%);
+}
+.rates {
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-around;
+}
+.rates button {
+  background-color: hsl(213, 15%, 23%);
+  color: hsl(217, 12%, 63%);
+  font-weight: 700;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.25s;
+}
+.rates button:hover {
+  background-color: hsl(25, 97%, 53%);
+}
+.submit-button {
+  margin-top: 25px;
+  text-align: center;
+}
+.submit-button button {
+  border: none;
+  background-color: hsl(25, 97%, 53%);
+  width: 270px;
+  height: 45px;
+  border-radius: 30px;
+  font-weight: 700;
+  letter-spacing: 0.1rem;
+  cursor: pointer;
+  transition: background-color 0.25s;
+}
+.submit-button button:hover {
+  background-color: white;
+}
+
+/* //////////////////////////////// */
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
