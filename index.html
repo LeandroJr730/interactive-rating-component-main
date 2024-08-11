@@ -22,9 +22,9 @@
   </head>
   <body>
     <!-- Rating state start -->
-    <div class="container">
+    <div class="container hidden">
       <div class="rating-state">
-        <img src="/images/icon-star.svg" />
+        <img src="/images/icon-star.svg" alt="" />
         <h1>How did we do?</h1>
         <p>
           Please let us know how we did with your support request. All feedback
@@ -50,12 +50,15 @@
     <!-- Thank you state start -->
     <div class="container">
       <div class="thank-you-state">
-        <div>
-          You selected
-          <!-- Add rating here -->
-          <p>#</p>
-          out of 5
-        </div>
+        <img src="/images/illustration-thank-you.svg" alt="" />
+
+        <!-- prettier-ignore -->
+        <p class="rating-selected">
+          You selected&nbsp;
+          <span id="rating">#</span>
+          &nbsp;out of 5
+        </p>
+
         <h1>Thank you!</h1>
         <p>
           We appreciate you taking the time to give a rating. If you ever need
@@ -66,11 +69,13 @@
 
     <!-- Thank you state end -->
 
-    <div class="attribution">
-      Challenge by
-      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
-        >Frontend Mentor</a
-      >. Coded by <a href="#">Your Name Here</a>.
+    <div class="footer">
+      <div class="attribution">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Frontend Mentor</a
+        >. Coded by <a href="https://github.com/LeandroJr730">LeandroJr730</a>.
+      </div>
     </div>
     <script src="script.js"></script>
   </body>
