@@ -22,7 +22,7 @@
   </head>
   <body>
     <!-- Rating state start -->
-    <div class="container hidden">
+    <div class="rating-container">
       <div class="rating-state">
         <img src="/images/icon-star.svg" alt="" />
         <h1>How did we do?</h1>
@@ -32,11 +32,11 @@
         </p>
 
         <div class="rates">
-          <button>1</button>
-          <button>2</button>
-          <button>3</button>
-          <button>4</button>
-          <button>5</button>
+          <button class="btn" value="1">1</button>
+          <button class="btn" value="2">2</button>
+          <button class="btn" value="3">3</button>
+          <button class="btn" value="4">4</button>
+          <button class="btn" value="5">5</button>
         </div>
 
         <div class="submit-button">
@@ -48,15 +48,15 @@
     <!-- Rating state end -->
 
     <!-- Thank you state start -->
-    <div class="container">
+    <div class="thank-you-container hidden">
       <div class="thank-you-state">
         <img src="/images/illustration-thank-you.svg" alt="" />
 
         <!-- prettier-ignore -->
         <p class="rating-selected">
-          You selected&nbsp;
-          <span id="rating">#</span>
-          &nbsp;out of 5
+          You selected
+          <span id="rating"></span>
+          out of 5
         </p>
 
         <h1>Thank you!</h1>

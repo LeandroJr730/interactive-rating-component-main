@@ -9,14 +9,12 @@ body {
   font-family: "OverPass", sans-serif;
   font-size: 15px;
 }
-.container {
+.rating-container,
+.thank-you-container {
   display: flex;
   justify-content: center;
   align-items: center;
   height: 100vh;
-}
-.hidden {
-  display: none;
 }
 .rating-state,
 .thank-you-state {
@@ -25,6 +23,9 @@ body {
   height: 350px;
   width: 340px;
   padding: 22px;
+}
+.hidden {
+  display: none;
 }
 
 /* RATING STATE */
@@ -66,9 +67,9 @@ p {
 .rates button:hover {
   background-color: hsl(25, 97%, 53%);
 }
-/* .rates button:focus {
+.rates button:focus {
   background-color: hsl(0, 0%, 77%);
-} */
+}
 .submit-button {
   text-align: center;
   margin-top: 25px;
